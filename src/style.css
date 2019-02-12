@@ -10,7 +10,7 @@ body {
   width: 100%;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 9px;
-  background: rgb(249,219,61);
+  background:#E1F4FD;
   color: #222;
   margin: 0;
   padding: 0;
@@ -189,7 +189,8 @@ code {
   font-size: 5em;
   text-align: center;
   width: 100%;
-  background: rgb(252, 235, 148);
+  background: #AD368E;
+  color:#FFF;
   padding: 5%;
   will-change: transform;
   transform: scale(4);

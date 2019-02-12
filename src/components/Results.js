@@ -19,6 +19,7 @@ const Results = ({ userAnswers, score, restartQuiz }) => {
       {fourTries}
       <div className="results-total">Your Total Score is <strong>{score}</strong>.</div>
       <a onClick={restartQuiz}>Restart Quiz</a>
+      <img src="https://serving.photos.photobox.com/23013902e581cda029a09c1294bf34d6410349693975825a90b621845c522a07a4d2388d.jpg" alt="Refresh" height="382" width="784"/>
     </div>
   );
 }
