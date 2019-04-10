@@ -27,13 +27,14 @@ class QuizApp extends Component {
           tries: 0
         }
       }),
-      step: 1,
+      step: 0,
       score: 0,
       modal: {
         state: 'hide',
         praise: '',
         points: ''
-      }
+      },
+      started:false
     };
   }
 
@@ -147,11 +148,19 @@ class QuizApp extends Component {
       ...this.getInitialState(this.props.totalQuestions)
     });
   };
-
+  begin = () =>{
+    this.setState({step:1})
+  }
   render() {
     const { step, questions, userAnswers, totalQuestions, score, modal } = this.state;
-
-    if (step >= totalQuestions + 1) {
+    if(step==0)
+    return(
+      <div className="start-container">
+        <img className="start-img"onClick={this.begin} src={require("../Img/logo.png")} />
+        {/* <a onClick={this.begin}>Start test</a> */}
+      </div>
+    )
+    else if (step >= totalQuestions + 1) {
       return (
         <Results
           score={score}

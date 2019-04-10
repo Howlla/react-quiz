@@ -72,7 +72,7 @@ const QUESTION_DATA = [
     correct: 2
   },
   {
-    question: <span>Women are at increased risk of <strong>Dry Eye </strong>compared to men<br/>
+    question: <span>Women are at increased risk of <strong>Dry Eye </strong>compared to me<sup>1</sup>n<br/>
     <code>what is the risk level?</code>
     </span>,
     answers: [
@@ -84,7 +84,7 @@ const QUESTION_DATA = [
     correct: 2
   },
   {
-    question: <span>As per <strong>DEWS ll</strong> women are found to use more artificial tears as compared to men<br/>
+    question: <span>As per <strong>DEWS ll</strong> women are found to use more artificial tears as compared to men<sup>1</sup><br/>
     <code>How much more do you think?</code></span>,
     answers: [
       <span>15%.</span>,
@@ -95,8 +95,8 @@ const QUESTION_DATA = [
     correct: 1
   },
   {
-    question: <span>Studies have shown women are more likely to present severe dry eyes<br/>
-      <code>What percentage of women experience it</code> </span>,
+    question: <span>Studies have shown women are more likely to present severe dry eyes<sup>1</sup><br/>
+      <code>What percentage of women experience it?</code> </span>,
     answers: [
       <span>12%.</span>,
       <span>25%.</span>,

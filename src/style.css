@@ -10,11 +10,29 @@ body {
   width: 100%;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 9px;
-  background:#E1F4FD;
+  /* background:#E1F4FD; */
+  /* background-image: url('./Img/background.png'); */
+  background: url(Img/background.png) no-repeat center center fixed; 
+  background-size: cover;
   color: #222;
   margin: 0;
   padding: 0;
   overflow-y: scroll;
+}
+.start-img {
+  /* display: block; */
+  /* max-width:600px;
+  max-height:100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%; */
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    max-width: 100%;
+    max-height: 100%;
+  /* vertical-align: middle; */
 }
 
 h1 {
@@ -57,6 +75,15 @@ code {
   background: rgba(0,0,0,.09);
   padding: 3px 4px;
   margin: 0 2px;
+}
+.start-container {
+  /* margin: 10px; */
+  /* width: 115px; */
+  width: 100%;
+  /* height: 115px; */
+  line-height: 115px;
+  text-align: center;
+  /* border: 1px solid red; */
 }
 
 .score-container, .question-count {
