@@ -72,7 +72,7 @@ const QUESTION_DATA = [
     correct: 2
   },
   {
-    question: <span>Women are at increased risk of <strong>Dry Eye </strong>compared to me<sup>1</sup>n<br/>
+    question: <span>Women are at increased risk of <strong>Dry Eye </strong>compared to men<sup>1</sup><br/>
     <code>what is the risk level?</code>
     </span>,
     answers: [
