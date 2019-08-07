@@ -156,7 +156,7 @@ class QuizApp extends Component {
     if(step==0)
     return(
       <div className="start-container">
-        <img className="start-img"onClick={this.begin} src={require("../Img/logo.png")} />
+        <img className="start-img"onClick={this.begin} src={require("../Img/Logo.png")} />
         {/* <a onClick={this.begin}>Start test</a> */}
       </div>
     )
