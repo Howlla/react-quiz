@@ -168,7 +168,7 @@ class QuizApp extends Component {
           <img
             className="start-img"
             onClick={this.begin}
-            src={require("../Img/logo.png")}
+            src={require("../Img/Logo.png")}
           />
           {/* <a onClick={this.begin}>Start test</a> */}
         </div>
