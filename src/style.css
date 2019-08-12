@@ -13,7 +13,7 @@ body {
   width: 100%;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 9px;
-  background: rgb(131, 134, 136);
+  background: white;
   /* background-image: url('./Img/background.png'); */
   /* background: url(Img/background.png) no-repeat center center fixed;  */
   background-size: cover;
