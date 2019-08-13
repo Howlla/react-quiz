@@ -87,13 +87,13 @@ const QUESTION_DATA = [
     question: (
       <span>
         What according to you makes Dimethyl Fumarate a better DMT than other available DMTs?
-        <sup>3</sup>?
+ 
       </span>
     ),
     answers: [
-      <span>Efficacy.</span>,
-      <span>Ease of formulation.</span>,
-      <span>Tolerability Profile.</span>,
+      <span>Overall efficacy profile.</span>,
+      <span>Ease of use with oral formulation.</span>,
+      <span>Short duration of half life.</span>,
       <span>All the above.</span>
     ],
     correct: 4,
@@ -103,7 +103,7 @@ const QUESTION_DATA = [
     question: (
       <span>
         Can you guesstimate the most common symptom of Multiple Sclerosis in
-        Patients<sup>2</sup>?
+        Patients?
       </span>
     ),
     answers: [
@@ -117,7 +117,7 @@ const QUESTION_DATA = [
   {
     question: (
       <span>
-        Can you estimate the ratio of female vs male patients of Multiple Sclerosis?<sup>1</sup>?
+        Can you estimate the ratio of female vs male patients of Multiple Sclerosis?
       </span>
     ),
     answers: [
