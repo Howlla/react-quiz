@@ -55,20 +55,7 @@ const QUESTION_DATA = [
   //   ],
   //   correct: 0
   // },
-  {
-    question: (
-      <span> How do you think in India female patients are placed versus male patients in terms of treatment?</span>
-    ),
-    answers: [
-      <span>Lower than Male patients.</span>,
-      <span>Higher than Male patients.</span>,
-      <span>Equal to Male patients.</span>,
-      <span> None of the above.</span>
-    ],
-    correct: 1,
-   isAll:true
-  },
-  {
+    {
     question: (
       <span>
         Who is the First female doctor in India and the first Indian woman to obtain a
@@ -83,6 +70,20 @@ const QUESTION_DATA = [
     ],
     correct: 2
   },
+  {
+    question: (
+      <span> How do you think in India female patients are placed versus male patients in terms of treatment?</span>
+    ),
+    answers: [
+      <span>Lower than Male patients.</span>,
+      <span>Higher than Male patients.</span>,
+      <span>Equal to Male patients.</span>,
+      <span> None of the above.</span>
+    ],
+    correct: 1,
+   isAll:true
+  },
+
   {
     question: (
       <span>
