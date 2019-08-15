@@ -83,7 +83,20 @@ const QUESTION_DATA = [
     correct: 1,
    isAll:true
   },
-
+{
+    question: (
+      <span>
+        Can you estimate the ratio of female vs male patients of Multiple Sclerosis?
+      </span>
+    ),
+    answers: [
+      <span>1:1</span>,
+      <span>2:1.</span>,
+      <span>3:1.</span>,
+      <span>None of the above.</span>
+    ],
+    correct: 1
+  },
   {
     question: (
       <span>
@@ -99,7 +112,7 @@ const QUESTION_DATA = [
     ],
     correct: 4,
     isAll: true
-  },
+  }
 //   {
 //     question: (
 //       <span>
@@ -115,20 +128,7 @@ const QUESTION_DATA = [
 //     ],
 //     correct: 0
 //   },
-  {
-    question: (
-      <span>
-        Can you estimate the ratio of female vs male patients of Multiple Sclerosis?
-      </span>
-    ),
-    answers: [
-      <span>1:1</span>,
-      <span>2:1.</span>,
-      <span>3:1.</span>,
-      <span>None of the above.</span>
-    ],
-    correct: 1
-  }
+  
 ];
 
 export default QUESTION_DATA;
