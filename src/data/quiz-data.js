@@ -11,20 +11,20 @@ const QUESTION_DATA = [
   //   ],
   //   correct: 0
   // },
-  // {
-  //   question: (
-  //     <span>
-  //       Who is the highest run scorer in women's international cricket?
-  //     </span>
-  //   ),
-  //   answers: [
-  //     <span>Anita Kanwar.</span>,
-  //     <span>Taniya Bhatia.</span>,
-  //     <span>Mithali Raj.</span>,
-  //     <span>Tim Seifert.</span>
-  //   ],
-  //   correct: 2
-  // },
+  {
+    question: (
+      <span>
+        Who is the highest run scorer in women's international cricket?
+      </span>
+    ),
+    answers: [
+      <span>Anita Kanwar.</span>,
+      <span>Taniya Bhatia.</span>,
+      <span>Mithali Raj.</span>,
+      <span>Tim Seifert.</span>
+    ],
+    correct: 2
+  },
   // {
   //   question: <span>First woman to join Indian Police Services?</span>,
   //   answers: [
@@ -99,21 +99,21 @@ const QUESTION_DATA = [
     correct: 4,
     isAll: true
   },
-  {
-    question: (
-      <span>
-        Can you guesstimate the most common symptom of Multiple Sclerosis in
-        Patients?
-      </span>
-    ),
-    answers: [
-      <span>Walking Fatigue.</span>,
-      <span>Fatigue.</span>,
-      <span>Depression.</span>,
-      <span>Bladder and Bowel symptoms.</span>
-    ],
-    correct: 0
-  },
+//   {
+//     question: (
+//       <span>
+//         Can you guesstimate the most common symptom of Multiple Sclerosis in
+//         Patients?
+//       </span>
+//     ),
+//     answers: [
+//       <span>Walking Fatigue.</span>,
+//       <span>Fatigue.</span>,
+//       <span>Depression.</span>,
+//       <span>Bladder and Bowel symptoms.</span>
+//     ],
+//     correct: 0
+//   },
   {
     question: (
       <span>
